@@ -119,5 +119,37 @@ public class Assignment1 {
      }
  }
 
+    /**
+     *  The getLowest method compares the three numbers entered and gets the lowest number
+     * @param one  first number
+     * @param two  second number
+     * @param three  third number
+     * @return lowest number
+     */
+
+ public static int getLowest( int one, int two, int three){
+
+     int low;
+     if((one < two)&&(one < three))
+     {
+         low = one;
+     }
+     else if((two < one)&&(two < three))
+     {
+
+         low = two;
+     }
+     else{
+         low = three;
+     }
+
+
+     return (low);
+ }
+
+
+
+
+
 }
 
